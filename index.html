@@ -16,44 +16,42 @@
             <h1>ITMD-541: Lab3 - Anmol Sansi</h1>
         </div>
 
-        <!-- Calculator box surrounding the form -->
-        <div class="calculator-box">
-            <form>
-                <label id="heading">&emsp;Tip Calculator</label>
-                <label id="heading2">for Mobile</label>
+        <!-- Form for the tip calculator -->
+        <form>
+            <label id="heading">&emsp;Tip Calculator</label>
+            <label id="heading2">for Mobile</label>
 
-                <!-- Input for the bill total -->
-                <label id="top">
-                    &emsp;&emsp;&emsp;&ensp;Bill Total
-                    <input type="number" id="total" min="0" oninput="calc1()">
-                </label>
-                <div id="errorMsg"></div>
+            <!-- Input for the bill total -->
+            <label id="top">
+                &emsp;&emsp;&emsp;&ensp;Bill Total
+                <input type="number" id="total" min="0" oninput="calc1()">
+            </label>
+            <div id="errorMsg"></div>
 
-                <!-- Input for the tip percentage using a range input -->
-                <label>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Tip
-                    <input type="range" id "tip" value="0" min="0" max="100" oninput="calc2()">
-                </label>
+            <!-- Input for the tip percentage using a range input -->
+            <label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Tip
+                <input type="range" id="tip" value="0" min="0" max="100" oninput="calc2()">
+            </label>
 
-                <!-- Input for displaying the tip percentage -->
-                <label>
-                    &emsp;&ensp;Tip Percentage
-                    <input type="number" id="tipPercent" disabled>
-                </label>
+            <!-- Input for displaying the tip percentage -->
+            <label>
+                &emsp;&ensp;Tip Percentage
+                <input type="number" id="tipPercent" disabled>
+            </label>
 
-                <!-- Input for displaying the tip amount -->
-                <label>
-                    &emsp;&emsp;&ensp;Tip Amount
-                    <input type="number" id="tipAmount" disabled>
-                </label>
+            <!-- Input for displaying the tip amount -->
+            <label>
+                &emsp;&emsp;&ensp;Tip Amount
+                <input type="number" id="tipAmount" disabled>
+            </label>
 
-                <!-- Input for displaying the total bill with tip -->
-                <label id="last">
-                    Total Bill with Tip
-                    <input type="number" id="totalWithTip" disabled>
-                </label>
-            </form>
-        </div>
+            <!-- Input for displaying the total bill with tip -->
+            <label id="last">
+                Total Bill with Tip
+                <input type="number" id="totalWithTip" disabled>
+            </label>
+        </form>
     </div>
     
     <!-- Content before waves -->
