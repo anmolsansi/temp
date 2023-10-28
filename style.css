@@ -38,11 +38,17 @@ form{
 }
 
 /* BACKGROUND ANIMATION CSS */
-.header {
+.calc {
   position:relative;
   text-align:center;
   background: linear-gradient(60deg, rgb(18, 6, 66) 0%, rgb(61, 203, 221) 100%);
   color:white;
+  /* Add styling for the calculator box */
+  border: 2px solid #000;
+  padding: 20px;
+  margin: 20px;
+  /* background-color: #fff; */
+  border-radius: 10px;
 }
   
 .flex { /*Flexbox for containers*/
