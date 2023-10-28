@@ -1,7 +1,10 @@
 .intro {
   font-size: 35px;
   margin: 0;
-  text-align: center; /* Center-align the text */
+}
+
+h1 {
+  text-align: center; /* Center-align the text within h1 tags */
 }
 
 body{
@@ -51,7 +54,10 @@ form{
   color:white;
   /* Add styling for the calculator box */
   border: 4px solid #000;
-  margin: 15%;
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-bottom: 15%;
+  margin-left: 15%;
   /* background-color: #fff; */
   border-radius: 20px;
 }
